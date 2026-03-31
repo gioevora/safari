@@ -47,7 +47,7 @@ export const ServiceSections = () => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center gap-4 pt-12 flex-wrap ">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-4 pt-12">
           <div className="pt-12 space-y-4 bg-neutral-200 py-4 px-6 rounded-2xl shadow-md border-b-6 border-[#009c00]">
             <div className="flex items-center gap-4">
               <div className="bg-[#009c00] px-4 py-4 rounded-full">
