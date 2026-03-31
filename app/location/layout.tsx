@@ -4,8 +4,8 @@ import { usePathname } from "next/navigation";
 import { PageHeader } from "@/components/pageheader";
 
 const headers: Record<string, any> = {
-  about: {
-    title: "About Us",
+  location: {
+    title: "Our Locations",
     bgImage: "https://ik.imagekit.io/9iubdrvln/footer-bg.jpg?updatedAt=1759463656356",
   },
 };

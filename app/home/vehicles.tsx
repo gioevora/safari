@@ -34,7 +34,7 @@ export const Vehicles = () => {
     {
       brand: "Ford",
       name: "Ford Everest SUV",
-      img: "https://unsplash.com/photos/black-jeep-wrangler-on-forest-during-daytime-5XtiXg43pEI",
+      img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
       price: 120,
       transmission: "Automatic",
       km: "30 KM",
@@ -44,7 +44,7 @@ export const Vehicles = () => {
     {
       brand: "Hyundai",
       name: "Hyundai Staria Van",
-      img: "https://images.unsplash.com/photo-1619767886558-efdc7b9e0473",
+      img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
       price: 150,
       transmission: "Automatic",
       km: "28 KM",
@@ -64,7 +64,7 @@ export const Vehicles = () => {
     {
       brand: "Mitsubishi",
       name: "Mitsubishi Montero Sport",
-      img: "https://images.unsplash.com/photo-1601924638867-3ec3b3e7a1f4",
+      img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
       price: 130,
       transmission: "Automatic",
       km: "27 KM",
@@ -77,10 +77,14 @@ export const Vehicles = () => {
     <section className="container mx-auto px-6 flex-grow">
       <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-32">
         <div className="flex flex-col items-center text-center gap-4">
-          <h1 className={title()}>EXPLORE SOME OF OUR VEHICLES</h1>
+          <div className="text-center">
+            <h1 className="text-3xl font-bold text-wrap">EXPLORE SOME OF OUR VEHICLES</h1>
+            <span className="block w-50 h-1 bg-[#009c00] mt-2 mx-auto"></span>
+          </div>
 
-          <p className="text-default-500 text-lg max-w-2xl leading-7">
-            Explore our fleet of safe, reliable, and affordable vehicles.
+          <p className="text-default-500 text-xl max-w-5xl leading-7">
+            Choose from our wide selection of vehicles, from econimical compacts
+            to SUV's, all maintained to the highest standards.
           </p>
 
           <div className="w-full pt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -146,7 +150,7 @@ export const Vehicles = () => {
                     radius="lg"
                     endContent={<FaArrowRightLong />}
                   >
-                    Details No
+                    Show Details
                   </Button>
                 </CardFooter>
               </Card>

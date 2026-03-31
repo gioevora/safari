@@ -11,28 +11,22 @@ export const HeroSection = () => {
     [
       (slider) => {
         let timeout: ReturnType<typeof setTimeout>;
-        let mouseOver = false;
+
         function clearNextTimeout() {
           clearTimeout(timeout);
         }
+
         function nextTimeout() {
           clearTimeout(timeout);
-          if (mouseOver) return;
           timeout = setTimeout(() => {
             slider.next();
           }, 5000);
         }
+
         slider.on("created", () => {
-          slider.container.addEventListener("mouseover", () => {
-            mouseOver = true;
-            clearNextTimeout();
-          });
-          slider.container.addEventListener("mouseout", () => {
-            mouseOver = false;
-            nextTimeout();
-          });
           nextTimeout();
         });
+
         slider.on("dragStarted", clearNextTimeout);
         slider.on("animationEnded", nextTimeout);
         slider.on("updated", nextTimeout);
@@ -46,23 +40,22 @@ export const HeroSection = () => {
         {/* Slide 1 */}
         <div className="keen-slider__slide number-slide1 relative h-[600px] md:h-[850px]">
           <img
-            src="/img/slider-1-1-B1INkHDV.jpg"
+            src="https://ik.imagekit.io/9iubdrvln/2.png?updatedAt=1759476246185"
             className="absolute w-full h-full object-cover"
             alt=""
           />
 
-          <div className="absolute inset-0 bg-black/70"></div>
+          <div className="absolute inset-0 bg-black/50"></div>
 
           <div className="relative z-10 container mx-auto h-full flex items-center px-6">
-            <div className="max-w-4xl text-white">
+            <div className="max-w-5xl text-white">
               <p className="uppercase tracking-widest font-semibold text-4xl mb-2">
-                YOUR BEST
+                TRUSTED SINCE 1993
               </p>
 
               <h1 className="text-5xl md:text-8xl font-bold leading-tight">
-                CAR <span className="text-[#009c00]">BOOKING</span>
-                <br />
-                EXPERIENCE
+                <span className="text-[#009c00]"> CAR RENTAL</span>
+                <br />& LEASING SOLUTIONS
               </h1>
 
               <div className="flex items-center gap-4 mt-8">
@@ -76,7 +69,7 @@ export const HeroSection = () => {
                 <Button
                   size="lg"
                   variant="light"
-                  className="flex items-center px-6 py-3 gap-3 rounded-md text-white font-semibold "
+                  className="flex items-center px-6 py-3 gap-3 rounded-md text-white font-semibold"
                 >
                   ▶ Watch Video
                 </Button>

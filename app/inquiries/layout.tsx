@@ -4,13 +4,13 @@ import { usePathname } from "next/navigation";
 import { PageHeader } from "@/components/pageheader";
 
 const headers: Record<string, any> = {
-  about: {
-    title: "About Us",
+  inquiries: {
+    title: "Inquiries",
     bgImage: "https://ik.imagekit.io/9iubdrvln/footer-bg.jpg?updatedAt=1759463656356",
   },
 };
 
-export default function AboutLayout({
+export default function InquiriesLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -25,7 +25,7 @@ export default function AboutLayout({
       {header && <PageHeader {...header} />}
 
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-        <div className="container mx-auto inline-block justify-center px-4">
+        <div className="inline-block text-center justify-center">
           {children}
         </div>
       </section>

@@ -11,28 +11,25 @@ export const siteConfig = {
     },
     {
       label: "About Us",
-      href: "/docs",
+      href: "/about",
     },
     {
       label: "Services",
-      href: "/pricing",
+      href: "/services",
     },
     {
       label: "Our Locations",
-      href: "/blog",
+      href: "/location",
     },
     {
       label: "Inquiries",
-      href: "/about",
+      href: "/inquiries",
     },
     {
       label: "Careers",
       href: "/careers",
     },
-    {
-      label: "Blogs",
-      href: "/blogs",
-    },
+
     {
       label: "Contact Us",
       href: "/contact",

@@ -1,9 +1,13 @@
-import { title } from "@/components/primitives";
+import Commitment from "./commitment";
+import MissionVissionPage from "./mvsection";
+import SafariSection from "./safari";
 
 export default function AboutPage() {
   return (
-    <div>
-      <h1 className={title()}>About</h1>
-    </div>
+    <>
+    <SafariSection/>
+    <MissionVissionPage/>
+    <Commitment/>
+    </>
   );
 }
