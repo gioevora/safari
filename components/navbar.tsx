@@ -23,7 +23,7 @@ import Image from "next/image";
 
 export const Navbar = () => {
   return (
-    <HeroUINavbar maxWidth="2xl" position="sticky">
+    <HeroUINavbar isBordered className="shadow" maxWidth="2xl" position="sticky">
 
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="max-w-fit">

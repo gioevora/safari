@@ -4,7 +4,7 @@ import { Divider } from "@heroui/divider";
 
 export const TopNavbar = () => {
   return (
-    <div className="hidden lg:flex bg-[#009c00] text-white text-sm">
+    <div className="hidden lg:flex bg-[#007744] text-white text-sm">
       <div className="container w-full mx-auto px-6 py-2">
         <div className="flex justify-between">
           <div className="flex justify-start gap-4 flex-wrap">

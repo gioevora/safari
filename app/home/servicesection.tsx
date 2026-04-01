@@ -30,7 +30,7 @@ export const ServiceSections = () => {
 
   return (
    
-    <section className="container mx-auto px-6 flex-grow">
+    <section className="container mx-auto px-6 grow">
       <div className="flex flex-col gap-4 py-8 md:py-32">
         <div className="flex flex-col items-center text-center gap-4">
           <div className="mb-4">
