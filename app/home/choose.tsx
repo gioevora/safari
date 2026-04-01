@@ -16,42 +16,42 @@ export const WhyChooseUs = () => {
     {
       title: "30+ YEARS TRUSTED",
       desc: `With 30 years’ experience in the Philippine car rental industry, Safari’s expertise has been proven and trusted by many prominent local and multinational organizations.`,
-      icon: <FaCalendarAlt color="white" size={32} />,
+      icon: <FaCalendarAlt color="white" size={28} />,
     },
     {
       title: "YOU CHOOSE!",
       desc: `Request from a variety of different vehicle brands and models! You can also choose from different payment methods such as bank deposit, credit cards, and e-wallets.`,
-      icon: <IoBulbSharp color="white" size={32} />,
+      icon: <IoBulbSharp color="white" size={28} />,
     },
     {
       title: "SAFETY IS #1",
       desc: `Safari top priority is YOU! With strict standards implemented at every level, you can be assured that your rides are safe.`,
-      icon: <AiOutlineSafety color="white" size={32} />,
+      icon: <AiOutlineSafety color="white" size={28} />,
     },
     {
       title: "COMPETITIVE & RENEWABLE",
       desc: `Affordable and competitive terms that are flexible and renewable compared to the nearest competitor.`,
-      icon: <RiCoinsLine color="white" size={32} />,
+      icon: <RiCoinsLine color="white" size={28} />,
     },
     {
       title: "ISO CERTIFIED!",
       desc: `Since 2024, our Quality Management System is certified by TÜV SÜD PSB Philippines Inc. according to ISO 9001.`,
-      icon: <BiSolidCertification color="white" size={32} />,
+      icon: <BiSolidCertification color="white" size={28} />,
     },
     {
       title: "HASSLE-FREE & CONVENIENT",
       desc: `Fleet Management System (FMS): We take care of vehicle maintenance, registration and paperwork, insurance, vehicular breakdowns, etc. Easy!`,
-      icon: <FaThumbsUp color="white" size={32} />,
+      icon: <FaThumbsUp color="white" size={28} />,
     },
     {
       title: "LESS OPPORTUNITY COST",
       desc: `No need to invest in acquiring new vehicles! Use your capital somewhere else.`,
-      icon: <TbPigMoney color="white" size={32} />,
+      icon: <TbPigMoney color="white" size={28} />,
     },
     {
       title: "24/7 SERVICE",
       desc: `We are ready 24/7, nationwide to assist you with any inquiries, emergencies or etc. Just give us a call, text or email!`,
-      icon: <IoIosTime color="white" size={32} />,
+      icon: <IoIosTime color="white" size={28} />,
     },
   ];
 
@@ -79,7 +79,7 @@ export const WhyChooseUs = () => {
                 className="flex gap-4 py-6 border-b border-gray-300 last:border-none"
               >
                 {/* ICON */}
-                <div className="text-2xl mt-1 h-16 w-16 bg-[#007744] flex items-center px-4 py-4 rounded-xl">
+                <div className="text-2xl mt-1 bg-[#007744] flex items-center py-4 px-4 rounded-full">
                   {item.icon}
                 </div>
 
@@ -95,7 +95,7 @@ export const WhyChooseUs = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE - STACKED IMAGES */}
+        {/* RIGHT SIDE - STACKED IMAGES */}      
         <div className="w-full md:w-1/2">
           <div className="sticky top-20">
             <div className="grid grid-cols-2 gap-2 mt-12 max-w-xl">
