@@ -74,12 +74,12 @@ export const Vehicles = () => {
   ];
 
   return (
-    <section className="container mx-auto px-6 flex-grow">
+    <section className="container mx-auto px-6 grow">
       <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-32">
         <div className="flex flex-col items-center text-center gap-4">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-wrap">EXPLORE SOME OF OUR VEHICLES</h1>
-            <span className="block w-50 h-1 bg-[#009c00] mt-2 mx-auto"></span>
+            <span className="block w-50 h-1 bg-[#007744] mt-2 mx-auto"></span>
           </div>
 
           <p className="text-default-500 text-xl max-w-5xl leading-7">
@@ -102,7 +102,7 @@ export const Vehicles = () => {
                   />
 
                   {/* CATEGORY BADGE */}
-                  <span className="absolute bottom-0 left-0 bg-[#009c00] text-white px-4 py-2 rounded-tr-xl font-semibold text-sm z-20">
+                  <span className="absolute bottom-0 left-0 bg-[#007744] text-white px-4 py-2 rounded-tr-xl font-semibold text-sm z-20">
                     {unit.brand}
                   </span>
                 </CardBody>
@@ -135,18 +135,9 @@ export const Vehicles = () => {
                     </div>
                   </div>
 
-                  {/* PRICE BOX */}
-                  {/* <div className="w-full bg-gray-100 rounded-xl py-3 text-center text-lg">
-                  Starting From
-                  <span className="text-amber-500 font-bold ml-1">
-                    ${unit.price}
-                  </span>{" "}
-                  / Day
-                </div> */}
-
                   {/* BUTTON */}
                   <Button
-                    className="w-full bg-[#009c00] text-white font-semibold"
+                    className="w-full bg-[#007744] text-white font-semibold"
                     radius="lg"
                     endContent={<FaArrowRightLong />}
                   >
@@ -159,9 +150,9 @@ export const Vehicles = () => {
 
           <div className="pt-4">
             <Button
-              className="w-full bg-[#009c00] text-white font-semibold"
+              className="w-full bg-[#007744] text-white font-semibold"
               radius="lg"
-              endContent={<FaCircleArrowRight />}
+              endContent={<FaArrowRightLong />}
               size="lg"
             >
               See All Vehicles

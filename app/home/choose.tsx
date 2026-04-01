@@ -60,7 +60,7 @@ export const WhyChooseUs = () => {
       <div className="flex flex-col items-center text-center gap-4">
         <div className="mb-4">
           <h1 className="text-3xl font-bold text-wrap">WHY CHOOSE US?</h1>
-          <span className="block w-50 h-1 bg-[#009c00] mt-2 mx-auto"></span>
+          <span className="block w-50 h-1 bg-[#007744] mt-2 mx-auto"></span>
         </div>
 
         <p className="text-default-500 text-xl max-w-5xl leading-7">
@@ -79,7 +79,7 @@ export const WhyChooseUs = () => {
                 className="flex gap-4 py-6 border-b border-gray-300 last:border-none"
               >
                 {/* ICON */}
-                <div className="text-2xl mt-1 h-16 w-16 bg-[#009c00] flex items-center px-4 py-4 rounded-xl">
+                <div className="text-2xl mt-1 h-16 w-16 bg-[#007744] flex items-center px-4 py-4 rounded-xl">
                   {item.icon}
                 </div>
 
@@ -104,7 +104,7 @@ export const WhyChooseUs = () => {
                 isZoomed
                 alt="1"
                 className="object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6"
+                src="https://ik.imagekit.io/9iubdrvln/489051826_1128275195979062_5389322534003374866_n.jpg"
                 height={300}
                 width={500}
               />
@@ -114,7 +114,7 @@ export const WhyChooseUs = () => {
                 isZoomed
                 alt="2"
                 className="object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6"
+                src="https://ik.imagekit.io/9iubdrvln/522977603_1215888850551029_5711309979266024361_n.jpg"
                 height={300}
                 width={500}
               />
@@ -125,7 +125,7 @@ export const WhyChooseUs = () => {
                   isZoomed
                   alt="3"
                   className="object-cover rounded-xl col-span-2 w-full"
-                  src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6"
+                  src="https://ik.imagekit.io/9iubdrvln/2.png?updatedAt=1759476246185"
                   height={250}
                   width={1000}
                 />
@@ -154,7 +154,7 @@ export const WhyChooseUs = () => {
               <div className="col-span-2 mt-4 flex gap-4">
                 <Button
                   size="lg"
-                  className="bg-[#009c00] text-white"
+                  className="bg-[#007744] text-white"
                   endContent={<FaArrowRight />}
                 >
                   Learn More
