@@ -79,7 +79,7 @@ export const WhyChooseUs = () => {
                 className="flex gap-4 py-6 border-b border-gray-300 last:border-none"
               >
                 {/* ICON */}
-                <div className="text-2xl mt-1 bg-[#007744] flex items-center py-4 px-4 rounded-full">
+                <div className="text-2xl mt-1 bg-[#007744] flex items-center w-16 h-16 py-4 px-4 rounded-full">
                   {item.icon}
                 </div>
 
