@@ -4,14 +4,16 @@ import { Input, Textarea } from "@heroui/input";
 import { Button } from "@heroui/button";
 import { Checkbox } from "@heroui/checkbox";
 import { IoSend } from "react-icons/io5";
+import Link from "next/link";
+import { siteConfig } from "@/config/site";
 
 export default function ContactUs() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 w-full">
       {/* LEFT SIDE */}
-     <div className="flex flex-col justify-center space-y-4 px-4 py-12 md:px-8 lg:px-16 xl:px-24">
+      <div className="flex flex-col justify-center space-y-4 px-4 py-12 md:px-8 lg:px-16 xl:px-24">
         <h1 className="font-bold text-5xl text-[#007744] leading-tight">
-          Get in touch
+          Contact Us
         </h1>
 
         <p className="text-gray-600 text-lg leading-relaxed">
@@ -41,20 +43,29 @@ export default function ContactUs() {
           <Input label="Email Address" type="email" />
           <Input label="Contact Number" type="email" />
           <Textarea label="Message" placeholder="Leave message here..." />
-          <Checkbox>
-            <p className="text-sm">
-              {" "}
+          <div className="flex items-center">
+            <Checkbox></Checkbox>
+            <span className="text-sm leading-relaxed">
               By proceeding with this form, you are freely and voluntarily
               giving your consent to Safari Rent-A-Car, Inc. in collecting and
               processing your provided data and personal information according
               to{" "}
-              <span className="font-medium italic text-[#007744]">
-                Safari's Data Privacy Policy and the Philippines Data Privacy
-                Act of 2012.
-              </span>
-            </p>
-          </Checkbox>
-          <Button endContent={<IoSend/>} size="lg" className="bg-[#007744] text-white">
+              <Link
+                href={siteConfig.links.policy}
+                className="font-medium italic text-[#007744] underline"
+              >
+                Safari’s Data Privacy Policy and the Philippines Data Privacy
+                Act of 2012
+              </Link>
+              .
+            </span>
+          </div>
+
+          <Button
+            endContent={<IoSend />}
+            size="lg"
+            className="bg-[#007744] text-white"
+          >
             Submit Message
           </Button>
         </div>
@@ -74,5 +85,3 @@ export default function ContactUs() {
     </section>
   );
 }
-
-

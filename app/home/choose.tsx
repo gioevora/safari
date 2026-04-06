@@ -95,7 +95,7 @@ export const WhyChooseUs = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE - STACKED IMAGES */}      
+        {/* RIGHT SIDE - STACKED IMAGES */}
         <div className="w-full md:w-1/2">
           <div className="sticky top-20">
             <div className="grid grid-cols-2 gap-2 mt-12 max-w-xl">
@@ -151,7 +151,7 @@ export const WhyChooseUs = () => {
                 />
               </div>
 
-              <div className="col-span-2 mt-4 flex gap-4">
+              <div className="col-span-2 mt-4 flex gap-4 flex-wrap">
                 <Button
                   size="lg"
                   className="bg-[#007744] text-white"
@@ -160,17 +160,19 @@ export const WhyChooseUs = () => {
                   Learn More
                 </Button>
 
-                <div className="flex items-center gap-2">
-                  <div className="bg-[#A02C28] px-4 py-4 rounded-2xl">
-                    <FaPhone color="white" />
+                <div className="flex items-center gap-3">
+                  <div className="bg-[#A02C28] p-4 rounded-2xl flex items-center justify-center">
+                    <FaPhone className="text-white text-lg" />
                   </div>
-                  <h3>
-                    <span className="text-neutral-400 text-sm">
+
+                  <div className="leading-tight">
+                    <span className="text-neutral-400 text-sm block">
                       Call Anytime
                     </span>
-                    <br />
-                    (+63) 2-8886-9619
-                  </h3>
+                    <span className="text-base font-medium">
+                      (+63) 2-8886-9619
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>

@@ -4,13 +4,13 @@ import { usePathname } from "next/navigation";
 import { PageHeader } from "@/components/pageheader";
 
 const headers: Record<string, any> = {
-  about: {
-    title: "About Us",
+  "data-privacy-policy": {
+    title: "DATA PRIVACY POLICY",
     bgImage: "https://ik.imagekit.io/9iubdrvln/footer-bg.jpg?updatedAt=1759463656356",
   },
 };
 
-export default function AboutLayout({
+export default function DataPrivacyPolicy({
   children,
 }: {
   children: React.ReactNode;
@@ -22,12 +22,12 @@ export default function AboutLayout({
 
   return (
     <>
-      {header && <PageHeader {...header} />}
+      {/* {header && <PageHeader {...header} />} */}
 
-      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-       
+      <section className="flex flex-col items-center justify-center">
+        <div className="inline-block justify-center">
           {children}
-     
+        </div>
       </section>
     </>
   );

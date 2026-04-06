@@ -51,7 +51,7 @@ export const ServiceSections = () => {
           <div className="pt-12 space-y-4 bg-neutral-200 py-4 px-6 rounded-2xl shadow-md border-b-6 border-[#007744]">
             <div className="flex items-center gap-4">
               <div className="bg-[#007744] px-4 py-4 rounded-full">
-                <FaCar color="white" size={32} />
+                <FaCar color="white" size={28} />
               </div>
 
               <div>
@@ -61,7 +61,7 @@ export const ServiceSections = () => {
 
             <Divider className="my-4" />
 
-            <div className="flex justify-center items-center">
+            <div className="flex items-center px-2">
               <div className="pt-2">
                 <ul className="space-y-4">
                   <li className="font-lg font-medium flex items-center gap-4">
@@ -103,15 +103,17 @@ export const ServiceSections = () => {
           <div className="pt-12 space-y-4 bg-neutral-200 py-4 px-6 rounded-2xl shadow-md border-b-6 border-[#007744]">
             <div className="flex items-center gap-4">
               <div className="bg-[#007744] px-4 py-4 rounded-full">
-                <FaCar color="white" size={32} />
+                <FaCar color="white" size={28} />
               </div>
 
               <div>
                 <h1 className="font-semibold text-xl">SHORT-TERM CAR RENTAL</h1>
               </div>
             </div>
+
             <Divider className="my-4" />
-            <div className="flex justify-center items-center">
+
+            <div className="flex items-center px-2">
               <div className="pt-2">
                 <ul className="space-y-4">
                   <li className="font-lg font-medium flex items-center gap-4">

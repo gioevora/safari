@@ -31,7 +31,7 @@
     "@heroui/kbd": "2.2.26",
     "@heroui/link": "2.2.26",
     "@heroui/listbox": "2.3.31",
-    "@heroui/modal": "2.2.29",
+    "@heroui/modal": "^2.2.29",
     "@heroui/navbar": "2.2.30",
     "@heroui/pagination": "2.2.27",
     "@heroui/popover": "2.3.32",

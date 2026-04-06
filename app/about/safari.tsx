@@ -5,12 +5,13 @@ import { FaArrowRight, FaPhone } from "react-icons/fa6";
 
 export default function SafariSection() {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+    <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 py-4 md:py-16 px-4">
       <div className="w-full md:w-1/2">
         {/* LIST */}
         <div className="flex flex-col mt-6">
           <div className="space-y-6">
-            <h3 className="font-semibold text-5xl text-[#007744]">
+            <span className="text-red-500 text-sm font-semibold">About Safari</span>
+            <h3 className="font-bold text-4xl text-[#007744]">
               WHO WE ARE?
             </h3>
 
@@ -103,7 +104,7 @@ export default function SafariSection() {
               />
             </div>
 
-            <div className="col-span-2 mt-4 flex gap-4">
+            <div className="col-span-2 mt-4 flex gap-4 flex-wrap">
               <Button
                 size="lg"
                 className="bg-[#007744] text-white"

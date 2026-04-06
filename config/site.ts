@@ -28,7 +28,7 @@ export const siteConfig = {
     },
 
     {
-      label: "Contact Us",
+      label: "Contact",
       href: "/contact",
     },
   ],
@@ -56,15 +56,20 @@ export const siteConfig = {
     },
 
     {
-      label: "Contact Us",
+      label: "Contact",
       href: "/contact",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    facebook: "https://www.facebook.com/ridewithSafari/",
+    instagram: "https://www.instagram.com/ridewithsafari",
+    linkedin: "https://ph.linkedin.com/company/ridewithsafari",
+    policy: "/data-privacy-policy",
+    home: "/",
+    about: "/about",
+    services: "/services",
+    locations: "/location",
+    careers: "/careers",
+    contact: "/conact",
   },
 };

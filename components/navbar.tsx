@@ -11,6 +11,9 @@ import { Link } from "@heroui/link";
 import { link as linkStyles } from "@heroui/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 
 import { siteConfig } from "@/config/site";
 import {
@@ -63,22 +66,22 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden lg:flex gap-2">
-          <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
-            <TwitterIcon className="text-default-500" />
+          <Link isExternal aria-label="Twitter" href={siteConfig.links.facebook}>
+            <FaSquareFacebook size={24} className="text-default-500" />
           </Link>
-          <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
-            <DiscordIcon className="text-default-500" />
+          <Link isExternal aria-label="Discord" href={siteConfig.links.instagram}>
+            <FaInstagramSquare size={24} className="text-default-500" />
           </Link>
-          <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <GithubIcon className="text-default-500" />
+          <Link isExternal aria-label="Github" href={siteConfig.links.linkedin}>
+            <FaLinkedin size={24} className="text-default-500" />
           </Link>
   
         </NavbarItem>
       </NavbarContent>
 
       <NavbarContent className="lg:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-          <GithubIcon className="text-default-500" />
+        <Link isExternal aria-label="Github" href={siteConfig.links.facebook}>
+          <FaSquareFacebook size={24} className="text-default-500" />
         </Link>
         <NavbarMenuToggle />
       </NavbarContent>
@@ -87,14 +90,7 @@ export const Navbar = () => {
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
+              <Link className="text-black"
                 href={item.href}
                 size="lg"
               >

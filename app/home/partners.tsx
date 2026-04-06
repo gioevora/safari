@@ -58,7 +58,7 @@ export const OurPartners = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-6">
+          <div className="flex flex-wrap justify-center items-center gap-4">
             {partners.map((partner, index) => (
               <Image
                 key={index}
@@ -66,7 +66,7 @@ export const OurPartners = () => {
                 alt={partner.name}
                 className="object-contain"
                 src={partner.img}
-                width={200}
+                width={150}
                 height={150}
               />
             ))}

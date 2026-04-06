@@ -3,6 +3,7 @@ import { Card, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { GrLocation } from "react-icons/gr";
 import { MdWorkOutline, MdOutlinePeopleAlt } from "react-icons/md";
+import ApplicationModal from "./applicationmodal";
 
 /* TYPES */
 type Section =
@@ -127,9 +128,7 @@ export default function Application() {
                     {job.slots} slot{job.slots > 1 && "s"}
                   </div>
 
-                  <Button size="sm" className="bg-[#007744] text-white ml-auto">
-                    Apply Now
-                  </Button>
+                  <ApplicationModal/>
                 </div>
               </div>
 
