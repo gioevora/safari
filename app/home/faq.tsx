@@ -77,7 +77,7 @@ export const FrequentAskQuestion = () => {
 
   return (
     <section className={`${isServicesPage ? "" : "bg-[#f4f4f2]"}`}>
-      <div className="container mx-auto px-6 flex-grow">
+      <div className="container mx-auto px-6 grow">
         <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-32">
           
           <div className="flex flex-col items-center text-center gap-4 w-full">
@@ -85,7 +85,7 @@ export const FrequentAskQuestion = () => {
               <h1 className="text-3xl font-bold text-wrap">
                 FREQUENT ASK QUESTIONS
               </h1>
-              <span className="block w-50 h-1 bg-[#009c00] mt-2 mx-auto"></span>
+              <span className="block w-50 h-1 bg-[#007744] mt-2 mx-auto"></span>
             </div>
 
             <p className="text-default-500 text-xl max-w-5xl leading-7">

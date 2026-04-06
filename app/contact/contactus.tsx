@@ -9,7 +9,7 @@ export default function ContactUs() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 w-full">
       {/* LEFT SIDE */}
-      <div className="flex flex-col justify-center space-y-4 pl-54 px-8">
+     <div className="flex flex-col justify-center space-y-4 px-4 py-12 md:px-8 lg:px-16 xl:px-24">
         <h1 className="font-bold text-5xl text-[#007744] leading-tight">
           Get in touch
         </h1>
@@ -63,7 +63,7 @@ export default function ContactUs() {
       {/* RIGHT SIDE - MAP */}
       <div className="w-full h-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994913.2917997006!2d121.1675275975583!3d12.428718715085099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c99fa59cd69b%3A0xfde3cdca8f38e9c0!2sSafari%20Rent-A-Car%2C%20Inc.%20-%20Head%20Office!5e0!3m2!1sen!2sus!4v1774940317826!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.555922087!2d121.00589407594589!3d14.567368985915067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c99fa59cd69b%3A0xfde3cdca8f38e9c0!2sSafari%20Rent-A-Car%2C%20Inc.%20-%20Head%20Office!5e0!3m2!1sen!2sph!4v1775438930897!5m2!1sen!2sph"
           className="w-full h-full min-h-screen"
           style={{ border: 0 }}
           loading="lazy"
@@ -74,3 +74,5 @@ export default function ContactUs() {
     </section>
   );
 }
+
+

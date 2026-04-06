@@ -7,16 +7,16 @@ import { Divider } from "@heroui/divider";
 
 export default function Locations() {
   return (
-    <section className="container mx-auto px-6 flex-grow">
+    <section className="container mx-auto px-6 grow">
       <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-32">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-[#009c00]">HEAD OFFICE</h1>
+            <h1 className="text-4xl font-bold text-[#007744]">HEAD OFFICE</h1>
             <Divider className="my-4" />
 
             <div className="space-y-2">
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <GrLocation color="white" size={18} />
                 </div>
                 <span>
@@ -26,14 +26,14 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdOutlinePhoneInTalk color="white" size={18} />
                 </div>
                 <span>(+63) 2-8886-9619 (Trunkline)</span>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaMobileRetro color="white" size={18} />
                 </div>
                 <span>
@@ -42,7 +42,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdEmail color="white" size={18} />
                 </div>
                 <span>
@@ -54,7 +54,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaClock color="white" size={18} />
                 </div>
                 <span>
@@ -76,14 +76,14 @@ export default function Locations() {
           </div>
 
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-[#009c00]">
+            <h1 className="text-4xl font-bold text-[#007744]">
               SAFARI STA. ROSA, LAGUNA
             </h1>
             <Divider className="my-4" />
 
             <div className="space-y-2">
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <GrLocation color="white" size={18} />
                 </div>
                 <span>
@@ -94,7 +94,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdOutlinePhoneInTalk color="white" size={18} />
                 </div>
                 <span>
@@ -103,21 +103,21 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaMobileRetro color="white" size={18} />
                 </div>
                 <span>0916-652-1572, 0947-899-6535, 0922-861-9078</span>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdEmail color="white" size={18} />
                 </div>
                 <span>mjardin@safarirentacarinc.com</span>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaClock color="white" size={18} />
                 </div>
                 <span>
@@ -139,14 +139,14 @@ export default function Locations() {
           </div>
 
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-[#009c00]">
+            <h1 className="text-4xl font-bold text-[#007744]">
               SAFARI CALAMBA, LAGUNA
             </h1>
             <Divider className="my-4" />
 
             <div className="space-y-2">
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <GrLocation color="white" size={18} />
                 </div>
                 <span>
@@ -156,7 +156,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdOutlinePhoneInTalk color="white" size={18} />
                 </div>
                 <span>
@@ -165,21 +165,21 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaMobileRetro color="white" size={18} />
                 </div>
                 <span>0916-652-1594, 0925-741-6947, 0932-227-4443</span>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdEmail color="white" size={18} />
                 </div>
                 <span>jalmendras@safarirentacarinc.com</span>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaClock color="white" size={18} />
                 </div>
                 <span>
@@ -201,14 +201,14 @@ export default function Locations() {
           </div>
 
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-[#009c00]">
+            <h1 className="text-4xl font-bold text-[#007744]">
               SAFARI GEN. TRIAS, CAVITE
             </h1>
             <Divider className="my-4" />
 
             <div className="space-y-2">
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <GrLocation color="white" size={18} />
                 </div>
                 <span>
@@ -218,7 +218,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdOutlinePhoneInTalk color="white" size={18} />
                 </div>
                 <span>
@@ -227,7 +227,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaMobileRetro color="white" size={18} />
                 </div>
                 <span>
@@ -236,7 +236,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdEmail color="white" size={18} />
                 </div>
                 <span>
@@ -246,7 +246,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaClock color="white" size={18} />
                 </div>
                 <span>
@@ -268,14 +268,14 @@ export default function Locations() {
           </div>
 
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-[#009c00]">
+            <h1 className="text-4xl font-bold text-[#007744]">
               SAFARI CLARK, PAMPANGA
             </h1>
             <Divider className="my-4" />
 
             <div className="space-y-2">
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <GrLocation color="white" size={18} />
                 </div>
                 <span>
@@ -286,7 +286,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdOutlinePhoneInTalk color="white" size={18} />
                 </div>
                 <span>
@@ -295,7 +295,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaMobileRetro color="white" size={18} />
                 </div>
                 <span>
@@ -304,14 +304,14 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdEmail color="white" size={18} />
                 </div>
                 <span>rkreyes@safarirentacarinc.com</span>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaClock color="white" size={18} />
                 </div>
                 <span>
@@ -333,14 +333,14 @@ export default function Locations() {
           </div>
 
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-[#009c00]">
+            <h1 className="text-4xl font-bold text-[#007744]">
               SAFARI CEBU, MACTAN
             </h1>
             <Divider className="my-4" />
 
             <div className="space-y-2">
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <GrLocation color="white" size={18} />
                 </div>
                 <span>
@@ -350,7 +350,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdOutlinePhoneInTalk color="white" size={18} />
                 </div>
                 <span>
@@ -359,7 +359,7 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaMobileRetro color="white" size={18} />
                 </div>
                 <span>
@@ -368,14 +368,14 @@ export default function Locations() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <MdEmail color="white" size={18} />
                 </div>
                 <span>mpidor@safarirentacarinc.com, emonton@safarirentacarinc.com</span>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] px-2 py-2 rounded-full">
+                <div className="bg-[#007744] px-2 py-2 rounded-full">
                   <FaClock color="white" size={18} />
                 </div>
                 <span>

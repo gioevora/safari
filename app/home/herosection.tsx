@@ -54,14 +54,14 @@ export const HeroSection = () => {
               </p>
 
               <h1 className="text-5xl md:text-8xl font-bold leading-tight">
-                <span className="text-[#009c00]"> CAR RENTAL</span>
+                <span className="text-[#007744]"> CAR RENTAL</span>
                 <br />& LEASING SOLUTIONS
               </h1>
 
               <div className="flex items-center gap-4 mt-8">
                 <Button
                   size="lg"
-                  className="bg-[#009c00] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#009c00]"
+                  className="bg-[#007744] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#007744]"
                 >
                   Read More →
                 </Button>
@@ -95,7 +95,7 @@ export const HeroSection = () => {
               </p>
 
               <h1 className="text-5xl md:text-8xl font-bold leading-tight">
-                CAR <span className="text-[#009c00]">CHOOSING</span>
+                CAR <span className="text-[#007744]">CHOOSING</span>
                 <br />
                 EXPERIENCE
               </h1>
@@ -103,7 +103,7 @@ export const HeroSection = () => {
               <div className="flex items-center gap-4 mt-8">
                 <Button
                   size="lg"
-                  className="bg-[#009c00] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#009c00]"
+                  className="bg-[#007744] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#009c00]"
                 >
                   Read More →
                 </Button>

@@ -21,10 +21,7 @@ export const siteConfig = {
       label: "Our Locations",
       href: "/location",
     },
-    // {
-    //   label: "Inquiries",
-    //   href: "/inquiries",
-    // },
+
     {
       label: "Careers",
       href: "/careers",
@@ -36,37 +33,31 @@ export const siteConfig = {
     },
   ],
   navMenuItems: [
-    {
-      label: "Profile",
-      href: "/profile",
+   {
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "About Us",
+      href: "/about",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Services",
+      href: "/services",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Our Locations",
+      href: "/location",
     },
+    
     {
-      label: "Calendar",
-      href: "/calendar",
+      label: "Careers",
+      href: "/careers",
     },
+
     {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "Contact Us",
+      href: "/contact",
     },
   ],
   links: {

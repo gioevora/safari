@@ -51,7 +51,7 @@ export default function Commitment() {
             <h1 className="text-3xl font-bold">
               OUR COMMITMENT TO QUALITY 2030
             </h1>
-            <span className="block w-50 h-1 bg-[#009c00] mt-2 mx-auto"></span>
+            <span className="block w-50 h-1 bg-[#007744] mt-2 mx-auto"></span>
           </div>
 
           <p className="text-default-500 text-xl max-w-5xl leading-7">
@@ -66,10 +66,10 @@ export default function Commitment() {
           {commitments.map((item, index) => (
             <div
               key={index}
-              className="space-y-4 bg-neutral-200 py-6 px-6 rounded-2xl shadow-md border-b-6 border-[#009c00]"
+              className="space-y-4 bg-neutral-200 py-6 px-6 rounded-2xl shadow-md border-b-6 border-[#007744]"
             >
               <div className="flex items-center gap-4">
-                <div className="bg-[#009c00] p-4 rounded-full">
+                <div className="bg-[#007744] p-4 rounded-full">
                   {item.icon}
                 </div>
                 <h1 className="font-semibold text-xl">{item.title}</h1>

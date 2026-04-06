@@ -37,7 +37,7 @@ export const ServiceSections = () => {
             <h1 className="text-3xl font-bold text-wrap">
               OUR CAR RENTAL SERVICES
             </h1>
-            <span className="block w-50 h-1 bg-[#009c00] mt-2 mx-auto"></span>
+            <span className="block w-50 h-1 bg-[#007744] mt-2 mx-auto"></span>
           </div>
 
           <p className="text-default-500 text-xl max-w-5xl leading-7">
@@ -48,9 +48,9 @@ export const ServiceSections = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-4 pt-12">
-          <div className="pt-12 space-y-4 bg-neutral-200 py-4 px-6 rounded-2xl shadow-md border-b-6 border-[#009c00]">
+          <div className="pt-12 space-y-4 bg-neutral-200 py-4 px-6 rounded-2xl shadow-md border-b-6 border-[#007744]">
             <div className="flex items-center gap-4">
-              <div className="bg-[#009c00] px-4 py-4 rounded-full">
+              <div className="bg-[#007744] px-4 py-4 rounded-full">
                 <FaCar color="white" size={32} />
               </div>
 
@@ -65,32 +65,32 @@ export const ServiceSections = () => {
               <div className="pt-2">
                 <ul className="space-y-4">
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     1 Year or More Rental.
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     Includes Fleet Management System (FMS).
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     Can request different vehicle brands/ make, upon
                     availability and approval.
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     24/7 service, nationwide coverage.
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     Flexible, negotiable rates and terms.
@@ -100,9 +100,9 @@ export const ServiceSections = () => {
             </div>
           </div>
 
-          <div className="pt-12 space-y-4 bg-neutral-200 py-4 px-6 rounded-2xl shadow-md border-b-6 border-[#009c00]">
+          <div className="pt-12 space-y-4 bg-neutral-200 py-4 px-6 rounded-2xl shadow-md border-b-6 border-[#007744]">
             <div className="flex items-center gap-4">
-              <div className="bg-[#009c00] px-4 py-4 rounded-full">
+              <div className="bg-[#007744] px-4 py-4 rounded-full">
                 <FaCar color="white" size={32} />
               </div>
 
@@ -115,32 +115,32 @@ export const ServiceSections = () => {
               <div className="pt-2">
                 <ul className="space-y-4">
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     Daily or Weekly Car Rental.
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     Includes Fleet Management System (FMS).
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     Can request different vehicle brands/ make, upon
                     availability and approval.
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     24/7 service, nationwide coverage.
                   </li>
                   <li className="font-lg font-medium flex items-center gap-4">
-                    <span className="bg-[#009c00] px-2 py-2 rounded-full">
+                    <span className="bg-[#007744] px-2 py-2 rounded-full">
                       <FaCheck color="white" />
                     </span>
                     Flexible, negotiable rates and terms.
@@ -152,8 +152,8 @@ export const ServiceSections = () => {
         </div>
 
         <div className="flex flex-col gap-4 justify-between items-center mt-12 text-center">
-          <h1><span className="font-bold text-[#009c00]">TERMS AND CONDITION APPLY.</span> Please contact our Account Officers for more details.</h1>
-          <Button className="bg-[#009c00] text-white" size="lg" endContent={<FaArrowRight/>}>LEARN MORE</Button>
+          <h1><span className="font-bold text-[#007744]">TERMS AND CONDITION APPLY.</span> Please contact our Account Officers for more details.</h1>
+          <Button className="bg-[#007744] text-white" size="lg" endContent={<FaArrowRight/>}>LEARN MORE</Button>
         </div>
       </div>
     </section>

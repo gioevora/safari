@@ -10,13 +10,13 @@ export default function SafariSection() {
         {/* LIST */}
         <div className="flex flex-col mt-6">
           <div className="space-y-6">
-            <h3 className="font-semibold text-5xl text-[#009c00]">
+            <h3 className="font-semibold text-5xl text-[#007744]">
               WHO WE ARE?
             </h3>
 
             <div className="space-y-4">
               <p className="text-lg text-default-500 mt-1 leading-6">
-                <span className="text-[#009c00] font-bold">
+                <span className="text-[#007744] font-bold">
                   SAFARI RENT-A-CAR, INC.{" "}
                 </span>
                 is one of the Philippines’ leading and fastest growing,
@@ -29,15 +29,15 @@ export default function SafariSection() {
               </p>
 
               <p className="text-lg text-default-500 mt-1 leading-6">
-                <span className="text-[#009c00] font-bold">SAFARI</span> was
+                <span className="text-[#007744] font-bold">SAFARI</span> was
                 established on March 21, 1993 by{" "}
-                <span className="text-[#009c00] font-bold">
+                <span className="text-[#007744] font-bold">
                   BELINDA D. NUÑEZ & VIRGILIO L. HIZON,
                 </span>{" "}
                 the current CEO and President, in a modest two room office in
                 Makati City, Metro Manila, with only a handful of employees, one
                 vehicle and a dream. Over the years,{" "}
-                <span className="text-[#009c00] font-bold">SAFARI</span> slowly
+                <span className="text-[#007744] font-bold">SAFARI</span> slowly
                 grew bigger as it acquired more vehicles, more employees, and
                 serviced more diverse clients while weathering difficult
                 economic conditions such as the 1997 Asian Financial Crisis, the
@@ -46,7 +46,7 @@ export default function SafariSection() {
 
               <p className="text-lg text-default-500 mt-1 leading-6">
                 As a testament to its leadership, teamwork, and resilience,
-                <span className="text-[#009c00] font-bold">SAFARI</span>{" "}
+                <span className="text-[#007744] font-bold">SAFARI</span>{" "}
                 celebrated its 30th Anniversary on March 21, 2023. Excitingly,
                 we’ve also been recently certified by TÜV SÜD PSB Philippines
                 Inc. according to ISO 9001. We strive to ensure that all our
@@ -106,7 +106,7 @@ export default function SafariSection() {
             <div className="col-span-2 mt-4 flex gap-4">
               <Button
                 size="lg"
-                className="bg-[#009c00] text-white"
+                className="bg-[#007744] text-white"
                 endContent={<FaArrowRight />}
               >
                 Learn More
