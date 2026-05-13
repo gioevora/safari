@@ -54,8 +54,9 @@ export const HeroSection = () => {
               </p>
 
               <h1 className="text-5xl md:text-8xl font-bold leading-tight">
-                <span className="text-[#007744]"> CAR RENTAL</span>
-                <br />& LEASING SOLUTIONS
+                CAR
+                <span className="text-[#007744]"> RENTAL</span>
+                <br />SOLUTIONS
               </h1>
 
               <div className="flex items-center gap-4 mt-8">

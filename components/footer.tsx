@@ -1,15 +1,15 @@
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import { Link as Links } from "@heroui/link";
-import { FaLinkedin, FaSquareFacebook } from "react-icons/fa6";
+import { FaClock, FaLinkedin, FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { Divider } from "@heroui/divider";
 
 export const Footer = () => {
   return (
     <footer className="bg-[#1111]">
-      <div className="container mx-auto w-full p-4">
-        <div className="lg:flex lg:justify-between py-12">
+      <div className="mx-auto w-full max-w-7xl p-4 py-6 lg:py-8">
+        <div className="lg:flex lg:justify-between py-12 gap-12">
           <div className="mb-6 lg:mb-0 w-full max-w-md space-y-6">
             <a href="https://flowbite.com/" className="flex items-center">
               <img
@@ -19,7 +19,7 @@ export const Footer = () => {
               />
             </a>
 
-            <p className="">
+            <p className="text-wrap">
               SAFARI RENT A CAR, INC. is one of the Philippines' leading
               Business to Business and Personal car rental organizations
               offering Short and Long-Term, Full Service Operating Lease (FSOL)
@@ -37,6 +37,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
+
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-heading uppercase">
@@ -131,17 +132,20 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
+
             <div>
               <h2 className="mb-6 text-sm font-semibold text-heading uppercase">
                 Legal
               </h2>
               <ul className="text-body font-medium">
                 <li className="mb-4">
-                  <Link
-                    href={siteConfig.links.policy}
-                    className="hover:underline"
-                  >
+                  <Link href={siteConfig.links.policy} className="hover:underline">
                     Data Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href={""} className="hover:underline">
+                    Cookies
                   </Link>
                 </li>
               </ul>
@@ -160,12 +164,6 @@ export const Footer = () => {
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0 gap-4">
-            <Link href={siteConfig.links.policy} className="hover:underline">
-              Data Privacy Policy
-            </Link>
-
-            <Divider orientation="vertical" className="h-5" />
-
             <div className="flex flex-wrap gap-1">
               <Links
                 isExternal

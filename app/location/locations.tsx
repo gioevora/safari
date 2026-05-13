@@ -7,7 +7,7 @@ import { Divider } from "@heroui/divider";
 
 export default function Locations() {
   return (
-    <section className="container mx-auto px-6 grow">
+    <section className="container mx-auto grow">
       <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-32">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <div className="space-y-6">

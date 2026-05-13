@@ -1,21 +1,14 @@
+import { Image } from "@heroui/image";
+
 export const MobilitySolutions = () => {
   return (
-    <section className="relative w-full h-[60vh] overflow-hidden">
-      
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://ik.imagekit.io/9iubdrvln/HOME-PAGE.png?updatedAt=1759478400393')",
-        }}
+    <section className="w-full md:h-[60vh] overflow-hidden">
+      <Image
+        src="https://ik.imagekit.io/9iubdrvln/HOME-PAGE.png?updatedAt=1759478400393"
+        alt="Mobility Solutions"
+        className="w-full h-full object-cover object-center rounded-none"
+        removeWrapper
       />
-
-      {/* Optional content layer */}
-      <div className="relative z-10 flex items-center justify-center h-full text-white">
-        
-      </div>
-
     </section>
   );
 };
