@@ -38,17 +38,17 @@ export const HeroSection = () => {
     <section className="relative">
       <div ref={sliderRef} className="keen-slider">
         {/* Slide 1 */}
-        <div className="keen-slider__slide number-slide1 relative h-[600px] md:h-[850px]">
+        <div className="keen-slider__slide number-slide1 relative h-[400px] md:h-[550px]">
           <img
-            src="https://ik.imagekit.io/9iubdrvln/2.png?updatedAt=1759476246185"
+            src="https://ik.imagekit.io/9iubdrvln/Safari%20Davao%20Branch.png"
             className="absolute w-full h-full object-cover"
             alt=""
           />
 
-          <div className="absolute inset-0 bg-black/50"></div>
+          {/* <div className="absolute inset-0 bg-black/50"></div> */}
 
           <div className="relative z-10 container mx-auto h-full flex items-center px-6">
-            <div className="max-w-5xl text-white">
+            {/* <div className="max-w-5xl text-white">
               <p className="uppercase tracking-widest font-semibold text-4xl mb-2">
                 TRUSTED SINCE 1993
               </p>
@@ -75,21 +75,21 @@ export const HeroSection = () => {
                   ▶ Watch Video
                 </Button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* Slide 2 */}
-        <div className="keen-slider__slide number-slide2 relative h-[600px] md:h-[850px]">
+        <div className="keen-slider__slide number-slide2 relative h-[400px] md:h-[550px]">
           <img
-            src="/img/slider-1-2-C9c-2HrM.jpg"
+            src="https://ik.imagekit.io/9iubdrvln/First%20Car%20Rental%20Company%20to%20be%20ISO%20Certified.png"
             className="absolute w-full h-full object-cover"
             alt=""
           />
 
-          <div className="absolute inset-0 bg-black/60"></div>
+          {/* <div className="absolute inset-0 bg-black/60"></div> */}
 
-          <div className="relative z-10 container mx-auto h-full flex items-center px-6">
+          {/* <div className="relative z-10 container mx-auto h-full flex items-center px-6">
             <div className="max-w-4xl text-white">
               <p className="uppercase tracking-widest font-semibold text-4xl mb-2">
                 YOUR BEST
@@ -118,7 +118,7 @@ export const HeroSection = () => {
                 </Button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
